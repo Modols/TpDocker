@@ -7,7 +7,7 @@ Installation :
     Après avoir installé Minikube, nous allons le configurer avec deux fichiers importants "index.php" et "lamp.yaml". 
     Pour cela, nous allons d'abord créer un token secret qui nous permettra de générer une base de données.
     Puis nous allons créer le fichier .yaml, où on peut voir sa configuration dans la partie "feature/working-one-pod".
-    Après cela, nous allons nous occuper des pods en installant dessus le serveur apache ainsi que le proxy. (EXPLICATION PODS) (EXPLICATION LAMP)
+    Après cela, nous allons nous occuper des pods en installant dessus le serveur apache ainsi que le proxy. (Un pod est un groupe d'un ou plusieurs conteneurs).
 
     Après tout cela installé nous récupérons l'url où le service tourne pour constater la réussite de la mise en place LAMP.
 
@@ -19,6 +19,6 @@ Problèmes majeurs :
 
     - La configuration du fichier "lamp.yaml" nous a compliqué la tâche car nous ne trouvions pas la bonne configuration.
 
-    - Le déploiement de Lamp, où encore le manque de documentation ne nous a pas aidé
+    - Le déploiement de Lamp, ou encore le manque de documentation ne nous a pas aidés
 
-    - Problème de connection à la base de données. En effet, nous n'avions pas compris que si on mettait nos deux services sur le même pod et que le passage par localhost était nécessaire au lieu de (PRECISION).
+    - Problème de connexion à la base de données. En effet, nous n'avions pas compris que si on mettait nos deux services sur le même pod et que le passage par localhost était nécessaire au lieu de (PRECISION).
