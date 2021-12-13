@@ -15,7 +15,7 @@ Problèmes majeurs :
 
     Nous avons rencontrés quelques problèmes pendant la mise en place de la stack :
     
-    - la documentation pour simplement installer kubernetes c'est trouvait être très peu explicites et nous avons du chercher pendant plusieurs heures pour réussir cette installation.
+    - la documentation pour simplement installer kubernetes s'est trouvée être très peu explicites et nous avons du chercher pendant plusieurs heures pour réussir cette installation.
 
     - La configuration du fichier "lamp.yaml" nous a compliqué la tâche car nous ne trouvions pas la bonne configuration.
 
