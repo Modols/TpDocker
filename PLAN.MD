@@ -21,4 +21,4 @@ Problèmes majeurs :
 
     - Le déploiement de Lamp, ou encore le manque de documentation ne nous a pas aidés
 
-    - Problème de connexion à la base de données. En effet, nous n'avions pas compris que si on mettait nos deux services sur le même pod et que le passage par localhost était nécessaire au lieu de (PRECISION).
+    - Problème de connexion à la base de données. En effet, nous n'avions pas compris que si on mettait nos deux services sur le même pod et que le passage par localhost était nécessaire au lieu de passer par mysql-server.
